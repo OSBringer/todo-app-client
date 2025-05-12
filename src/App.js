@@ -1,7 +1,7 @@
-import React from 'react';
-import './App.css';
-import logo from './images/logo.png';
-import Dashboard from './components/Dashboard';
+import React from "react";
+import "./App.css";
+import logo from "./images/logo.png";
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
@@ -11,9 +11,11 @@ function App() {
           <img className="float-left" src={logo} alt="logo" />
           <div className="float-right center padding-10">
             <p className="title-text align-left">TODO</p>
-            <p className="sub-title-text align-left">A Simple MariaDB CRUD Demo</p>
+            <p className="sub-title-text align-left">
+              A Simple AzureSQL CRUD Demo
+            </p>
           </div>
-          <div style={{clear: "both"}} />
+          <div style={{ clear: "both" }} />
         </div>
       </header>
       <Dashboard />
